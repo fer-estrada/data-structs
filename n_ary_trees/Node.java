@@ -38,7 +38,7 @@ public class Node<T> {
     // ejercicio 2:
     public void escribePrimogenitos() {
         if(!children.isEmpty()) {
-            System.out.println(children.get(0).get_data()); // imprime el primogenito de este nodo
+            System.out.println(children.get(0).get_data()); // imprime el primogenito actual
 
             for(Node<T> child : children) {
                 child.escribePrimogenitos(); // recursividad
