@@ -1,3 +1,5 @@
+// entidad que representa una plaza del parking
+
 import java.util.Stack;
 
 public class Plaza {
@@ -14,7 +16,7 @@ public class Plaza {
     }
 
     public Stack<Vehiculo> get_plataforma() {
-        return plataforma;
+        return plataforma; 
     }
 
     public Vehiculo vehiculo_arriba() {

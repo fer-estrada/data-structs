@@ -1,3 +1,5 @@
+// entidad que representa el ticket generado al entrar un vehiculo al parking
+
 import java.time.LocalDateTime;
 
 public class Ticket {
@@ -37,7 +39,7 @@ public class Ticket {
 
     @Override
     public String toString() {
-        return "Ticket{ id: " + id + ", matricula: " + matricula + ", hora de entrada: " + hora_entrada 
+        return "Ticket{ id: " + id + ", matricula: " + matricula + ", hora de entrada: " + hora_entrada
         + ", hora de pago: " + (hora_pago == null ? "pendiente" : hora_pago) + ", pagado: " + pagado + " }";
     }
 }
